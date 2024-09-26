@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="638.0" fitWidth="924.0" layoutX="-4.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/fundo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Filosofo_01" fitHeight="262.0" fitWidth="277.0" layoutX="318.0" layoutY="-36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/filosofo01_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Filosofo_02" fitHeight="262.0" fitWidth="277.0" layoutX="498.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" rotate="63.7">
+         <image>
+            <Image url="@img/filosofo02_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Filosofo_03" fitHeight="262.0" fitWidth="277.0" layoutX="477.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" rotate="123.2">
+         <image>
+            <Image url="@img/filosofo03_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Filosofo_04" fitHeight="262.0" fitWidth="277.0" layoutX="167.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true" rotate="-123.7">
+         <image>
+            <Image url="@img/filosofo04_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Filosofo_05" fitHeight="262.0" fitWidth="277.0" layoutX="135.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" rotate="-63.7">
+         <image>
+            <Image url="@img/filosofo05_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView id="mesa" fitHeight="310.0" fitWidth="302.0" layoutX="295.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Garfo01" fitHeight="83.0" fitWidth="111.0" layoutX="454.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true" rotate="-137.6">
+         <image>
+            <Image url="@img/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Garfo05" fitHeight="83.0" fitWidth="111.0" layoutX="357.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" rotate="141.3">
+         <image>
+            <Image url="@img/garfo.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgv_Garfo04" fitHeight="83.0" fitWidth="111.0" layoutX="329.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@img/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Garfo03" fitHeight="83.0" fitWidth="111.0" layoutX="406.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgv_Garfo02" fitHeight="83.0" fitWidth="111.0" layoutX="482.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@img/garfo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_AumentarVelPensar_Filo01" layoutX="145.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelPensar_Filosofo01" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelPensar_Filo01" layoutX="66.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelPensar_Filosofo01" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelComer_Filo01" layoutX="66.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelComer_Filosofo01" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_Parar_Retomar_Filo01" layoutX="6.0" layoutY="570.0" mnemonicParsing="false" onAction="#acaoBtnParar_Retomar_Filosofo01" text="Parar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelComer_Filo01" layoutX="144.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelComer_Filosofo01" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn_DiminuirVelPensar_Filo02" layoutX="248.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelPensar_Filosofo02" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelPensar_Filo02" layoutX="330.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelPensar_Filosofo02" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelComer_Filo02" layoutX="248.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelComer_Filosofo02" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelComer_Filo02" layoutX="330.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelComer_Filosofo02" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_Parar_Retomar_Filo02" layoutX="190.0" layoutY="570.0" mnemonicParsing="false" onAction="#acaoBtnParar_Retomar_Filosofo02" text="Parar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_Parar_Retomar_Filo03" layoutX="375.0" layoutY="570.0" mnemonicParsing="false" onAction="#acaoBtnParar_Retomar_Filosofo03" text="Parar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelPensar_Filo03" layoutX="514.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelPensar_Filosofo03" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelPensar_Filo03" layoutX="434.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelPensar_Filosofo03" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelComer_Filo03" layoutX="514.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelComer_Filosofo03" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelComer_Filo03" layoutX="434.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelComer_Filosofo03" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelPensar_Filo04" layoutX="615.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelPensar_Filosofo04" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelPensar_Filo04" layoutX="700.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelPensar_Filosofo04" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelComer_Filo04" layoutX="615.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelComer_Filosofo04" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelComer_Filo04" layoutX="700.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelComer_Filosofo04" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_Parar_Retomar_Filo04" layoutX="558.0" layoutY="570.0" mnemonicParsing="false" onAction="#acaoBtnParar_Retomar_Filosofo04" text="Parar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelPensar_Filo05" layoutX="804.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelPensar_Filosofo05" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelPensar_Filo05" layoutX="880.0" layoutY="505.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelPensar_Filosofo05" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_DiminuirVelComer_Filo05" layoutX="804.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnDiminuirVelComer_Filosofo05" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_AumentarVelComer_Filo05" layoutX="880.0" layoutY="545.0" mnemonicParsing="false" onAction="#acaoBtnAumentarVelComer_Filosofo05" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_Parar_Retomar_Filo05" layoutX="745.0" layoutY="570.0" mnemonicParsing="false" onAction="#acaoBtnParar_Retomar_Filosofo05" text="Parar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_Reiniciar" layoutX="741.0" layoutY="28.0" mnemonicParsing="false" onAction="#acaoBtnReiniciar" text="Reiniciar Simulação">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_Iniciar" layoutX="748.0" layoutY="29.0" mnemonicParsing="false" onAction="#acaoBtnIniciar" text="Iniciar Simulação">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="painelInfo_Filo01" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="471.0" prefHeight="17.0" prefWidth="162.0" text="Parado." />
+      <Label fx:id="painelInfo_Filo02" alignment="CENTER" layoutX="190.0" layoutY="471.0" prefHeight="17.0" prefWidth="166.0" text="Parado." />
+      <Label fx:id="painelInfo_Filo03" alignment="CENTER" layoutX="377.0" layoutY="471.0" prefHeight="17.0" prefWidth="159.0" text="Parado." />
+      <Label fx:id="painelInfo_Filo04" alignment="CENTER" layoutX="563.0" layoutY="471.0" prefHeight="17.0" prefWidth="159.0" text="Parado." textFill="WHITE" />
+      <Label fx:id="painelInfo_Filo05" alignment="CENTER" layoutX="748.0" layoutY="471.0" prefHeight="17.0" prefWidth="152.0" text="Parado." textFill="WHITE" />
+   </children>
+</AnchorPane>
